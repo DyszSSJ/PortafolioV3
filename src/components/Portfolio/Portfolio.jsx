@@ -2,10 +2,12 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Sidebar from "../../img/BuscadorBebidas.jfif";
+import Ecommerce from "../../img/CitasVeterinario.jfif";
+import HOC from "../../img/CotizadorAutos.jfif";
+import MusicApp from "../../img/Criptomonedas.jfif";
+import Pokedex from "../../img/Pokedex.jfif";
+import Rock from "../../img/RockFestival.jfif";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -13,8 +15,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <span>Portfolio</span>
+      <span style={{color: darkMode?'white': ''}}>Proyectos recientes</span>
+      <span>Portafolio</span>
 
       {/* slider */}
       <Swiper
@@ -34,6 +36,12 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={HOC} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Rock} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Pokedex} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

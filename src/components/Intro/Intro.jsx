@@ -1,18 +1,15 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import Vector1 from "../../img/Mancha.webp";
+import Vector2 from "../../img/Manche_pink.webp";
 import glassesimoji from "../../img/glassesimoji.png";
-import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import Insta from "@iconscout/react-unicons/icons/uil-instagram";
+import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
@@ -27,28 +24,31 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hola soy</span>
+          <span>Axel David Téllez Álvarez</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Soy desarrollador Front End Developer con experiencia en desarrollo
+            y diseño de aplicaciones web.
           </span>
         </div>
-        <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
-        </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/DyszSSJ" target="_blanck">
+            <Gitub color={"rgb(64, 184, 168)"} size={"6rem"} />
+          </a>
+          <a href="https://www.linkedin.com/in/axel-david-tellez-alvarez-63b0871b7/" target="_blanck">
+            <Linkedin color={"rgb(64, 184, 168)"} size={"6rem"} />
+          </a>
+          <a href="https://www.instagram.com/axel__tellez__/" target="_blanck">
+            <Insta size={"6rem"} color={"rgb(64, 184, 168)"} />
+          </a>
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src="" alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
@@ -67,22 +67,11 @@ const Intro = () => {
           <FloatinDiv img={crown} text1="Web" text2="Developer" />
         </motion.div>
 
-        {/* animation */}
-        <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
-          transition={transition}
-          className="floating-div"
-        >
-          {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
-        </motion.div>
-
-        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div className="blur" style={{ background: "#caf0f8" }}></div>
         <div
           className="blur"
           style={{
-            background: "#C1F5FF",
+            background: "#caf0f8",
             top: "17rem",
             width: "21rem",
             height: "11rem",

@@ -1,8 +1,8 @@
 :root
 {
-  --yellow: #F5C32C;
-    --orange : #FCA61F;
-    --black : #242D49;
+  --yellow: #ffd60a;
+    --orange : rgb(64, 184, 168);
+    --black : rgba(36, 36, 36, 0.692);
     --gray : #788097;
     --blueCard : #DDF8FE;
     --purple: rgb(238 210 255);
