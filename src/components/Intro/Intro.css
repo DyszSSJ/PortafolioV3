@@ -79,11 +79,16 @@
   border-radius: 50%;
   padding: 0;
 }
+.imgPrincipal {
+  width: 30rem;
+  margin-left: 1rem;
+  margin-top: -6rem;
+}
 
 /* blur */
 .blur {
   position: absolute;
-  width: 22rem;
+  width: 18rem;
   height: 14rem;
   border-radius: 50%;
   background: #edd0ff;
@@ -92,6 +97,9 @@
   top: -18%;
   left: 56%;
   filter: blur(72px);
+}
+.emogiImg {
+  width: 10rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -102,15 +110,14 @@
   }
 
   .i-right {
-    transform: scale(0.8);
+    transform: scale(0.6);
     left: -3rem;
   }
   .i-right .blur {
     display: none;
   }
   .floating-div:nth-of-type(1){
-    /* display: none; */
-    top: -7rem !important;;
+    top: -7rem !important;
   }
 }
 
