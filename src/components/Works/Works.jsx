@@ -20,10 +20,10 @@ const Works = () => {
             Mi experiencia laboral
           </span>
           <span>1 año y medio con proyectos propios </span>
-          <div
+          {/* <div
             className="blur s-blur1"
             style={{ background: "#caf0f8" }}
-          ></div>
+          ></div> */}
         </div>
 
         {/* right side */}

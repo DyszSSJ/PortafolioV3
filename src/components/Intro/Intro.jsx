@@ -73,8 +73,8 @@ const Intro = () => {
           />
         </motion.div>
 
-        <div className="blur" style={{ background: "#caf0f8" }}></div>
-        <div
+        {/* <div className="blur" style={{ background: "#caf0f8" }}></div> */}
+        {/* <div
           className="blur"
           style={{
             background: "#caf0f8",
@@ -83,7 +83,7 @@ const Intro = () => {
             height: "11rem",
             left: "-9rem",
           }}
-        ></div>
+        ></div> */}
       </div>
     </div>
   );

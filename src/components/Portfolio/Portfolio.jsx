@@ -31,28 +31,38 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <a href="https://buscadordebebidas-proyect.netlify.app">
+            <img src={Sidebar} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://citas-react-proyecto.netlify.app">
+            <img src={Ecommerce} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://pokedex-project-axel.netlify.app">
+            <img src={Pokedex} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://nostalgic-curran-400b31.netlify.app">
+            <img src={MusicApp} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://control-gastos-proyect.netlify.app">
+            <img src={HOC} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={upTask} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={GuitarLA} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src={peliculasApp} alt="" className="peliculasApp" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Ecommerce} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Pokedex} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

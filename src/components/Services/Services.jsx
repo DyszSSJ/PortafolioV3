@@ -29,7 +29,7 @@ const Services = () => {
         <spane className="span3">
           Todas las tecnologias que uso para desarrollar mis proyectos
         </spane>
-        <div className="blur s-blur1" style={{ background: "#caf0f8" }}></div>
+        {/* <div className="blur s-blur1" style={{ background: "#caf0f8" }}></div> */}
       </div>
       {/* right */}
       <div className="cards">
@@ -61,7 +61,7 @@ const Services = () => {
             }
           />
         </motion.div>
-        <div className="blur s-blur2" style={{ background: "#caf0f8" }}></div>
+        {/* <div className="blur s-blur2" style={{ background: "#caf0f8" }}></div> */}
       </div>
     </div>
   );
