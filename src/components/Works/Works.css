@@ -95,6 +95,8 @@
   background: "none";
   box-shadow: var(--smboxShadow);
   background: white;
+  margin-top: -3.2rem;
+  margin-left: -3.2rem;
 }
 
 .w-backCircle {

@@ -29,7 +29,6 @@ const Services = () => {
         <spane className="span3">
           Todas las tecnologias que uso para desarrollar mis proyectos
         </spane>
-        {/* <div className="blur s-blur1" style={{ background: "#caf0f8" }}></div> */}
       </div>
       {/* right */}
       <div className="cards">
@@ -55,13 +54,12 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
+            heading={"Desarrollo Web"}
             detail={
-              "HTML, JavaScript, React, Express, Next JS, MongoDB, Prisma, Remix, Strapi, Socket IO, Flutter, Dart"
+              "HTML, JavaScript, React, Express, Next JS, MongoDB, Prisma, Remix, Strapi, Socket IO, Flutter, Dart, Vue, PosgresQL, "
             }
           />
         </motion.div>
-        {/* <div className="blur s-blur2" style={{ background: "#caf0f8" }}></div> */}
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import Pokedex from "../../img/Pokedex.jfif";
 import upTask from "../../img/upTask.jpeg";
 import peliculasApp from "../../img/peliculasApp.jpeg";
 import GuitarLA from "../../img/GuitarLA.jpeg";
+import cotizador from "../../img/cotizadorPrestamos.jpg";
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -31,6 +32,17 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <img src={upTask} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={GuitarLA} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://cotizador-de-prestamo.netlify.app/">
+            <img src={cotizador} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
           <a href="https://buscadordebebidas-proyect.netlify.app">
             <img src={Sidebar} alt="" />
           </a>
@@ -51,18 +63,12 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
+          <img src={peliculasApp} alt="" className="peliculasApp" />
+        </SwiperSlide>
+        <SwiperSlide>
           <a href="https://control-gastos-proyect.netlify.app">
             <img src={HOC} alt="" />
           </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={upTask} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={GuitarLA} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={peliculasApp} alt="" className="peliculasApp" />
         </SwiperSlide>
       </Swiper>
     </div>

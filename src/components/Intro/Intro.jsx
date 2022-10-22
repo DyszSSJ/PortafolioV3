@@ -72,18 +72,6 @@ const Intro = () => {
             className="imgCrown"
           />
         </motion.div>
-
-        {/* <div className="blur" style={{ background: "#caf0f8" }}></div> */}
-        {/* <div
-          className="blur"
-          style={{
-            background: "#caf0f8",
-            top: "17rem",
-            width: "21rem",
-            height: "11rem",
-            left: "-9rem",
-          }}
-        ></div> */}
       </div>
     </div>
   );

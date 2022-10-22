@@ -3,7 +3,7 @@ import "./Works.css";
 import VelaOne from "../../img/VelaOne.jfif";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -20,12 +20,7 @@ const Works = () => {
             Mi experiencia laboral
           </span>
           <span>1 año y medio con proyectos propios </span>
-          {/* <div
-            className="blur s-blur1"
-            style={{ background: "#caf0f8" }}
-          ></div> */}
         </div>
-
         {/* right side */}
       </div>
       <div className="w-right">
@@ -37,7 +32,9 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img className="imageVela" src={VelaOne} alt="" />
+            <a href="https://www.velapos.com/">
+              <img className="imageVela" src={VelaOne} alt="" />
+            </a>
           </div>{" "}
         </motion.div>
         {/* background Circles */}
