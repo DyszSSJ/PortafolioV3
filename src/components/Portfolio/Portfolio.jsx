@@ -11,6 +11,8 @@ import upTask from "../../img/upTask.jpeg";
 import peliculasApp from "../../img/peliculasApp.jpeg";
 import GuitarLA from "../../img/GuitarLA.jpeg";
 import cotizador from "../../img/cotizadorPrestamos.jpg";
+import Perfumes from "../../img/EcommercePerfumes.jpg";
+import peliculas from "../../img/trailerPeliculas.jpg";
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -32,10 +34,18 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <a href="https://trailers-peliculas.netlify.app/">
+            <img src={peliculas} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={upTask} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={GuitarLA} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Perfumes} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://cotizador-de-prestamo.netlify.app/">

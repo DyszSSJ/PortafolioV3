@@ -3,7 +3,6 @@ import "./Works.css";
 import VelaOne from "../../img/VelaOne.jfif";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
