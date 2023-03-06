@@ -73,9 +73,6 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={peliculasApp} alt="" className="peliculasApp" />
-        </SwiperSlide>
-        <SwiperSlide>
           <a href="https://control-gastos-proyect.netlify.app">
             <img src={HOC} alt="" />
           </a>

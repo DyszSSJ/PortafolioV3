@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import VelaOne from "../../img/VelaOne.jfif";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import VelaOne from "../../img/VelaOne.jfif";
+import Proficient from "../../img/proficient.png";
+
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -33,6 +35,11 @@ const Works = () => {
           <div className="w-secCircle">
             <a href="https://www.velapos.com/">
               <img className="imageVela" src={VelaOne} alt="" />
+            </a>
+          </div>{" "}
+          <div className="w-secCircle">
+            <a href="https://weareproficient.com/">
+              <img className="imageVela" src={Proficient} alt="" />
             </a>
           </div>{" "}
         </motion.div>

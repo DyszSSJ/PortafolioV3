@@ -26,8 +26,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hola soy</span>
           <span>Axel David Téllez Álvarez</span>
           <span>
-            Soy desarrollador Front End Developer con experiencia en desarrollo,
-            diseño de aplicaciones web y moviles.
+            Soy desarrollador Front End Developer con experiencia en Desarrollo web y Ecommerce
           </span>
         </div>
         {/* social icons */}

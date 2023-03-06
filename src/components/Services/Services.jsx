@@ -42,7 +42,7 @@ const Services = () => {
             emoji={HeartEmoji}
             heading={"Diseño"}
             detail={
-              "CSS, SASS, Bootstrap, Material UI, Tailwindcss, Headless UI"
+              "CSS, Bootstrap, Material UI, Tailwindcss, Headless UI"
             }
           />
         </motion.div>
@@ -56,7 +56,7 @@ const Services = () => {
             emoji={Glasses}
             heading={"Desarrollo Web"}
             detail={
-              "HTML, JavaScript, React, Express, Next JS, MongoDB, Prisma, Remix, Strapi, Socket IO, Flutter, Dart, Vue, PosgresQL, "
+              "HTML, JavaScript, React, Next JS, Strapi, Vue, Shopify, Liquid, Wordpress, Typescript "
             }
           />
         </motion.div>
