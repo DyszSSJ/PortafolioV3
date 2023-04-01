@@ -5,7 +5,6 @@
   margin-bottom: 8rem;
   margin-top: 9rem;
   margin-bottom: -1rem;
-  /* scroll view */
   padding-top: 3rem;
 }
 /* left side */
@@ -13,7 +12,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  /* gap: 20px; */
 }
 
 .span1 {

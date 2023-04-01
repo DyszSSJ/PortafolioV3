@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Works.css";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import VelaOne from "../../img/VelaOne.jfif";
+import VelaOne from "../../img/VelaOne.jpg";
 import Proficient from "../../img/proficient.png";
 
 const Works = () => {
@@ -18,9 +18,12 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Mi experiencia laboral
+            Mi
           </span>
-          <span>1 año y medio con proyectos propios </span>
+          <span style={{ color: darkMode ? "white" : "" }}>
+            {" "}
+            experiencia laboral
+          </span>
         </div>
         {/* right side */}
       </div>
@@ -33,7 +36,7 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <a href="https://www.velapos.com/">
+            <a href="https://www.vela1.com/es/inicio-sistemas-de-punto-de-venta/">
               <img className="imageVela" src={VelaOne} alt="" />
             </a>
           </div>{" "}

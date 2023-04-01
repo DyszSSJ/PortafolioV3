@@ -3,12 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/BuscadorBebidas.jfif";
-import Ecommerce from "../../img/CitasVeterinario.jfif";
-import HOC from "../../img/CotizadorAutos.jfif";
-import MusicApp from "../../img/Criptomonedas.jfif";
-import Pokedex from "../../img/Pokedex.jfif";
 import upTask from "../../img/upTask.jpeg";
-import peliculasApp from "../../img/peliculasApp.jpeg";
 import GuitarLA from "../../img/GuitarLA.jpeg";
 import cotizador from "../../img/cotizadorPrestamos.jpg";
 import Perfumes from "../../img/EcommercePerfumes.jpg";
@@ -22,7 +17,7 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <span style={{ color: darkMode ? "white" : "" }}>
-        Proyectos recientes
+        Algunos de mis proyectos
       </span>
       <span>Portafolio</span>
 
@@ -55,26 +50,6 @@ const Portfolio = () => {
         <SwiperSlide>
           <a href="https://buscadordebebidas-proyect.netlify.app">
             <img src={Sidebar} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://citas-react-proyecto.netlify.app">
-            <img src={Ecommerce} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://pokedex-project-axel.netlify.app">
-            <img src={Pokedex} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://nostalgic-curran-400b31.netlify.app">
-            <img src={MusicApp} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://control-gastos-proyect.netlify.app">
-            <img src={HOC} alt="" />
           </a>
         </SwiperSlide>
       </Swiper>

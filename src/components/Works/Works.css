@@ -3,10 +3,10 @@
   display: flex;
   height: 90vh;
   margin-top: 4rem;
-
-  /* scroll */
+  margin-bottom: 4rem;
   align-items: center;
 }
+
 /* left side */
 .awesome {
   display: flex;
@@ -16,12 +16,12 @@
 
 .awesome > :nth-child(1) {
   color: var(--black);
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 .awesome > :nth-child(2) {
   color: var(--orange);
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .w-mainCircle {
-  left: 9rem;
+  left: 15rem;
   position: relative;
   width: 18rem;
   height: 18rem;
@@ -93,6 +93,7 @@
   align-items: center;
   justify-content: center;
   background: "none";
+  background-size: contain;
   box-shadow: var(--smboxShadow);
   background: white;
   margin-top: -3.2rem;
@@ -109,13 +110,13 @@
 }
 .blueCircle {
   background: crimson;
-  left: 18rem;
+  left: 25rem;
   top: 0rem;
 }
 .yellowCircle {
   background: #00b4d8;
-  left: 18rem;
-  top: 8rem;
+  left: 25rem;
+  top: 10rem;
 }
 
 @media screen and (max-width: 480px) {
